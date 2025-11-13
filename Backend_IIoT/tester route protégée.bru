@@ -1,0 +1,15 @@
+meta {
+  name: tester route protégée
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://localhost:5000/api/protected
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

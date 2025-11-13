@@ -1,0 +1,15 @@
+meta {
+  name: Connexion_utilisateur
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:5000/api/auth/login
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

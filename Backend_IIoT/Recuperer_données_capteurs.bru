@@ -1,0 +1,15 @@
+meta {
+  name: Recuperer_données_capteurs
+  type: http
+  seq: 7
+}
+
+get {
+  url: http://localhost:5000/api/sensors
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
